@@ -1,0 +1,1128 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.containar{ 
+    background-color: rgb(172, 11, 201);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+
+
+ /* navbarcss start */
+
+
+
+
+.navbar{
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+
+}
+
+.rightnav a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#navitem{
+     display: flex;
+     justify-content: space-around;
+    
+    
+
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 10px;
+    object-fit: cover;
+}
+.leftnav img{
+    padding-top: 10px;
+     height: 60px;
+}
+
+.rightnav{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 30px;
+
+    
+    
+
+}
+
+.rightnav a{
+    
+    transition: all ;
+
+}
+
+.rightnav a:hover{
+   
+    color: forestgreen;
+}
+
+
+
+/* main css start */
+
+
+
+.section1{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+
+}
+.sec1items{
+    width: 60%;
+    display: flex;
+    
+    align-items: center;
+    margin: 2.5rem;
+    gap: 120px;
+    
+
+}
+
+   
+
+.leftitem{
+    height: 424px;
+    width: 240px;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    position: relative;
+    top: 4rem;
+
+    
+   
+    
+
+}
+.leftitem img{
+    height: 375px;
+    width: 240px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+   
+   
+    
+    padding-left: 10px;
+    padding-right: 10px;
+   
+
+}
+
+.rightitem p{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 800;
+}
+.rightitem{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+
+#butt{
+    height: 50px;
+    width: 200px;
+    font-weight:600 ;
+    border-radius: 30px;
+    background-color: white;
+    transition: all 1s linear;
+   
+
+
+}
+
+
+
+
+
+#butt:hover{
+  
+   
+   
+    transform: scale(1.1);
+}
+
+
+
+
+
+.section2{
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+   
+
+}
+.sec2item1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+   
+}
+
+
+.text{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#logo{
+    height: 120px;
+    width: 120px;
+}
+.sec2item2{
+    display: flex;
+    margin: 165px;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+.sec2item2 h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.sec2item2 p{
+    font-size: 1.1rem;
+
+}
+
+
+
+
+
+.section3{
+    height: 550px;
+    display: flex;justify-content: center;
+    align-items: center;
+
+
+}
+.title{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 1000;
+}
+
+
+
+.section4{
+   height: auto;
+    background-color: white;
+}
+
+.sec4items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sec4item1{
+    padding: 80px;
+    font-size: 1.6rem;
+
+
+}
+
+.sec4item2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 100px;
+
+}
+
+.section5{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    
+     
+}
+.sec5item1{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 1000;
+    
+}
+
+#butt2{
+    height: 50px;
+    width: 200px;
+    font-size: 1.1rem;
+    font-weight:600 ;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    top: 2rem;
+    left: 15rem;
+    transition: all 1s linear;
+    
+     
+}
+#butt2:hover{
+    transform: scale(1.1);
+   
+}
+
+
+/* premium page css  */
+
+.presection1{
+    height: 550px;
+    width: 100vw;
+    background-color: rgb(29, 120, 224);
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    color: white;
+}
+.presection1 h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.presec1item2 p{
+    font-size: 1.5rem;
+
+}
+
+.presec1item3{
+    display: flex;
+    gap: 17px;
+}
+
+
+
+#prebutt1{
+    height: 50px;
+    width: 155px;
+    border: 1px solid black;
+    font-size: 1rem;
+    transition: all ;
+    font-weight:600 ;
+    border-radius: 30px;
+    background-color: black;
+    color: white
+    
+    
+
+}
+#prebutt1:hover{
+    transform: scale(1.1);
+    
+}
+
+#prebutt2{
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-weight:700 ;
+    font-size: 1rem;
+    border: 2px solid white;
+    transition: all ;
+    border-radius: 30px;
+    background-color: rgb(29, 120, 224);
+}
+
+#prebutt2:hover{
+    transform: scale(1.1);
+    
+}
+
+.presec1item4 p{
+     font-size: small;
+}
+.presec1item4 a{
+    font-size: small;
+    color: white;
+}
+
+
+  /* premium section2 css start */
+
+
+
+.presection2{
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: 5rem;
+   
+
+}
+
+.presec2item1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.presec2item2{
+    display: flex;
+    gap: 50px;
+    
+    margin-left: 10rem;
+}
+.box1{
+    
+    width: 250px;
+
+    
+}.box2{
+   
+    width: 250px;
+
+    
+}
+
+.box3{
+   
+    width: 250px;
+
+    
+}
+.box4{
+    
+    width: 250px;
+
+    
+}
+#logo{
+    height: 140px;
+    width: 140px;
+     
+}
+
+
+
+
+
+
+/* premium section3 css start */
+
+
+
+.presection3{
+    height: auto;
+    width: 100vw;
+    background-color: rgb(232, 224, 224);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    
+    
+    
+    
+   
+}
+
+.presec3item1{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 15px;
+     padding-top: 4rem;
+    
+}
+
+.presec3item2{
+    display: flex;
+    
+    
+    gap: 15px;
+}
+
+
+
+.ima img{
+    height: 15px;
+    width: 30px;
+    
+
+}
+
+
+
+.card1{
+    height: 32rem;
+    width: 19rem;
+    border-radius: 10px;
+    background-color: rgb(238, 244, 244);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    padding-left: 15px;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+
+.carditem1{
+    border: 1px solid rgb(29, 120, 224);
+    width: 100px;
+    background-color: rgb(29, 120, 224);
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    
+}
+
+
+
+
+
+.carditem2{
+    background-color: white;
+    border: 2px solid rgb(29, 120, 224);;
+    height: 30px;
+    width:180px ;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+
+
+}
+.carditem2 p{
+    font: size 17px; 
+    color: rgb(29, 120, 224);;
+ 
+}
+.presec3item3{
+    padding-bottom: 4rem;
+}
+
+.carditem4 p{
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+
+#checkmark
+{
+     
+    transform: rotate(45deg);
+    height: 25px;
+    width: 10px;
+   
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+    border-right: 2.5px solid rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+#cardbutt{
+    height: 40px;
+    width: 220px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+    border-radius: 30px;
+    color: rgb(239, 232, 232);
+    font-weight:700 ;
+    font-size: 1rem;
+    transition: all;
+    align-content: center;
+   
+    
+
+}
+#cardbutt:hover{
+    transform: scale(1.1);
+}
+    
+
+
+
+
+
+.carditem7 p{
+    font-size: 10px;
+}
+
+
+.lastbox{
+     height: 75px;
+     width: 730px;
+     border: 2px solid rgb(239, 236, 236) ;
+     background-color: rgb(238, 243, 243);
+     border-radius: 15px;
+     display: flex;
+     gap: 15px;
+     align-items: center;
+    
+    
+}
+.lastbox h1{
+    font-size: 1.5rem;
+}
+
+#lastbutt{
+     height: 50px;
+     width: 160px;
+     font-size: 1rem;
+     font-weight: 700;
+
+     background-color: white;
+     border: 2px solid black;
+     border-radius: 20px;
+     transition: all;
+     
+}
+#lastbutt:hover{
+    transform:scale(1.1)
+}
+
+
+
+
+/* support page css start here */
+
+
+.supsection1{
+    height: auto;
+    width: 100vw;
+    background-color: #19e686;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.supsection1 h1{
+    font-size: 3rem;
+}
+
+.supsecitem3 img{
+    height: 100px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.supsecitem4 a{
+    font-size: 1.2rem;
+    color: black;
+}
+
+
+/* supsection2 css start */
+
+
+.supsection2{
+
+    height: 20rem;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+     
+}
+
+.supsec2item1 p{
+    font-size: 1rem;
+    font-weight: 400px;
+}
+
+.supsec2item3 img{
+    height: 80px;
+    width: 200px;
+}
+
+.supsection3{
+    height: 27rem;
+    width: 100vw;
+    background-color: #222326;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    padding-top: 1rem;
+
+
+}
+
+.supsec3item1 img{
+    height: 200px;
+    width: 600px;
+}
+
+.supsec3item2 h1{
+    font-size: 2rem;
+    color: white;
+}
+
+.supsec3item3{ 
+    display: flex;
+    gap: 10px;
+   font-size: 1.2rem;
+    color: rgb(229, 238, 230);
+}
+.supsec3item3 a{
+    color: rgb(13, 227, 60);
+    
+
+}
+
+
+
+/* download page css start here */
+
+.downnavbar{
+    height: 42rem;
+    width: 100vw;
+   
+   background-image: linear-gradient(black,#1ed760,black,black,black,black,black,black);
+    color: white;
+
+}
+
+
+.khal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.gitem1 h1{
+    font-size: 3rem;
+    font-weight: 600px;
+}
+.gitem1 a{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+#seachbar{
+     height: 50px;
+     width: 620px;
+     position: relative;
+     left: 4.4rem;
+     border-radius: 10px;
+     border: 1px solid white;
+}
+
+.gbox{
+     display: flex;
+     gap: 15px;
+     height:400px;
+     flex-wrap: wrap;
+     width: 700px;
+     align-content: start;
+     position: relative;
+     left: 7rem;
+     
+     
+}
+.gbox p{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 400px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+       
+}
+
+
+
+
+.gcard1{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(201, 11, 201);
+    overflow: hidden;
+}
+.gcard1 img{
+    height: 90px;
+    position: relative;
+    left: 120px;
+    transform: rotate(-35deg);
+   
+}
+
+.gcard2{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(34, 15, 184);
+    overflow: hidden;
+}
+.gcard2 img{
+    height: 90px;
+    position: relative;
+    left: 120px;
+    transform: rotate(-35deg);
+   
+}
+.gcard3{
+    height: 100px;
+    width: 200px; border-radius: 10px;
+    background-color: rgb(194, 8, 8);
+    overflow: hidden;
+}
+.gcard3 img{
+    height: 90px;
+    position: relative;
+    left: 120px;
+    transform: rotate(-35deg);
+   
+}
+.gcard4{
+    height: 100px;
+    width: 200px; border-radius: 10px;
+    background-color: rgb(154, 99, 9);
+    overflow: hidden;
+}
+.gcard4 img{
+    height: 90px;
+    position: relative;
+    left: 120px;
+    transform: rotate(-35deg);
+   
+}
+.gcard5{
+    height: 100px;
+    width: 200px; border-radius: 10px;
+    background-color: rgb(6, 96, 7);
+    overflow: hidden;
+    
+}
+.gcard5 img{
+    height: 90px;
+    position: relative;
+    left: 120px;
+    transform: rotate(-35deg);
+   
+}
+
+
+.gcard6{
+    height: 100px;
+    width: 200px; border-radius: 10px;
+    background-color: rgb(59, 56, 59);
+    overflow: hidden;
+}
+.gcard6 img{
+    height: 90px;
+    position: relative;
+    left: 120px;
+    transform: rotate(-35deg);
+   
+}
+
+
+
+/* supportpage dowsec1 section  css start here */
+
+
+
+.dowsec1{
+    height: auto;
+    width: 100vw;
+    background-color: rgb(46, 45, 45);
+
+     
+}
+
+.dowitems{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 2rem;
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+}
+
+.dowitem1 h2{
+    color: white;
+    position: relative;
+    right: 5rem;
+     
+}
+.dowitem2{
+    font-size: 1.2rem;
+    color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.dowsec2{
+    height: 300px;
+    width: 100vw;
+    background-color: rgb(22, 21, 21);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.dowsec2item1 h1{ 
+    font-size: 3rem;
+    color: white;
+}
+
+.dowsec2item2 p{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 200px;
+}
+
+#dowbuttt{
+    height: 50px;
+    width: 200px;
+    background-color: #1ed760;
+    border: 1px solid #1ed760;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    transition: all;
+
+}
+#dowbuttt:hover{ 
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+/* footar css start  */
+
+.footer{
+    height: 460px;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.socialmedia
+{
+    display: flex;
+    gap: 30px;
+    padding-right: 200px;
+    padding-top: 60px;
+
+}
+.footlogo{
+    display: flex;
+    
+    
+    
+
+}
+.footlogo p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 10px;
+
+
+
+}
+.footitems1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 60px;
+    
+    gap: 5rem;;
+}
+
+.footlogo img{
+     height: 50px;
+     width: 65px;
+}
+
+.head1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transition: all 1s;
+    
+}
+.head1 a:hover{
+    background-color: green;
+
+}
+.head2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.head3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+    
+
+.footitems1 a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.footitems1 h1{
+    color: gray;
+    font-size: 1rem;
+
+}
+
+.head1 a{
+    
+    transition: all linear ;
+
+}
+
+.head1 a:hover{
+    
+   background-color: forestgreen;
+}
+
+.head2 a{
+    
+    transition: all linear ;
+
+}
+
+.head2 a:hover{
+    
+   background-color: forestgreen;
+}
+.head3 a{
+    
+    transition: all linear ;
+
+}
+
+.head3 a:hover{
+    
+   background-color: forestgreen;
+}
+
+
+
